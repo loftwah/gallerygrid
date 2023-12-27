@@ -1,5 +1,7 @@
 # GalleryGrid
 
+![GalleryGrid](https://github.com/loftwah/gallerygrid/assets/19922556/b940310f-fdd4-4072-95ba-9d03b00abc52)
+
 GalleryGrid is a web application built with Next.js, designed to showcase and manage a dynamic grid of images. It utilizes modern web technologies and frameworks to provide a responsive and interactive user experience.
 
 ## Key Features
