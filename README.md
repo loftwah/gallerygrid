@@ -18,17 +18,31 @@ Choose GalleryGrid. Elevate your image display experience.
 
 ## Key Features
 
-* **Dynamic Image Grid**: Display images in an organized grid format, which adapts to various screen sizes.
-* **Modal Image Viewing**: Click on any image to view it in a modal, offering a closer look.
-* **ALT Tag Accessibility**: Each image has an ALT tag option for improved accessibility.
-* **Efficient Image Management**: Easily manage and filter through images using the built-in functionality.
+- **Dynamic Image Grid**: Display images in an organized grid format, which adapts to various screen sizes.
+- **Modal Image Viewing**: Click on any image to view it in a modal, offering a closer look.
+- **ALT Tag Accessibility**: Each image has an ALT tag option for improved accessibility.
+- **Efficient Image Management**: Easily manage and filter through images using the built-in functionality.
+
+## Tech Stack
+
+GalleryGrid leverages a modern and efficient tech stack to provide a seamless and dynamic image gallery experience:
+
+- **Next.js**: At its core, GalleryGrid utilizes Next.js for server-side rendering, offering fast page loads, SEO benefits, and a robust framework for web applications.
+- **Vercel Deployment**: Optimized for performance and scalability, GalleryGrid is deployed on Vercel, ensuring seamless integration with Next.js and enhanced user experience with edge network deployment.
+- **Discord Bot Integration**: Unique to GalleryGrid is its integration with a Discord bot. This feature enables automated management and updates to the image gallery, harnessing the power and flexibility of Discord's API.
+- **React**: For building the user interface, GalleryGrid employs React, providing a responsive and interactive experience with its component-based architecture.
+- **Tailwind CSS**: Styling is handled by Tailwind CSS, ensuring a consistent and modern design that is both responsive and customizable.
+- **TypeScript**: GalleryGrid utilizes TypeScript, enhancing code quality and reliability with static typing, making the development process more efficient and error-resistant.
+- **Node.js & Express**: The backend runs on Node.js with Express, providing a solid foundation for server-side logic and API endpoints.
+
+This tech stack not only ensures a high-quality user experience but also makes GalleryGrid a versatile and scalable solution for image management and display.
 
 ## Getting Started
 
 ### Prerequisites
 
-* Node.js (version 12.0 or higher)
-* npm, yarn, pnpm, or bun (for package management and running scripts)
+- Node.js (version 12.0 or higher)
+- npm, yarn, pnpm, or bun (for package management and running scripts)
 
 ### Installation
 
@@ -52,15 +66,15 @@ Navigate to `http://localhost:3000` in your browser to view the application.
 
 ## Structure Overview
 
-* **src/**: Contains the source code, including components, hooks, and application layout.
-* **public/**: Stores static assets like images and icons.
-* **styles/**: Houses CSS files for global and modular styling.
+- **src/**: Contains the source code, including components, hooks, and application layout.
+- **public/**: Stores static assets like images and icons.
+- **styles/**: Houses CSS files for global and modular styling.
 
 ## Components
 
-* **Grid**: Renders a grid of images.
-* **Modal**: Displays a larger view of the selected image with additional details.
-* **CloseIcon**: A UI element for closing modal windows.
+- **Grid**: Renders a grid of images.
+- **Modal**: Displays a larger view of the selected image with additional details.
+- **CloseIcon**: A UI element for closing modal windows.
 
 ## Contributions
 
@@ -72,5 +86,5 @@ GalleryGrid is licensed under the [MIT License]().
 
 ## Acknowledgements
 
-* Next.js Team for the excellent framework.
-* Contributors and maintainers of all used open-source libraries.
+- Next.js Team for the excellent framework.
+- Contributors and maintainers of all used open-source libraries.
