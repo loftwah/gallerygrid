@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GalleryGrid
+
+GalleryGrid is a web application built with Next.js, designed to showcase and manage a dynamic grid of images. It utilizes modern web technologies and frameworks to provide a responsive and interactive user experience.
+
+## Key Features
+
+* **Dynamic Image Grid**: Display images in an organized grid format, which adapts to various screen sizes.
+* **Modal Image Viewing**: Click on any image to view it in a modal, offering a closer look.
+* **ALT Tag Accessibility**: Each image has an ALT tag option for improved accessibility.
+* **Efficient Image Management**: Easily manage and filter through images using the built-in functionality.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+* Node.js (version 12.0 or higher)
+* npm, yarn, pnpm, or bun (for package management and running scripts)
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone git@github.com:loftwah/gallerygrid.git
+cd gallerygrid
+npm install
+```
+
+### Running the Application
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to `http://localhost:3000` in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Structure Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* **src/**: Contains the source code, including components, hooks, and application layout.
+* **public/**: Stores static assets like images and icons.
+* **styles/**: Houses CSS files for global and modular styling.
 
-## Learn More
+## Components
 
-To learn more about Next.js, take a look at the following resources:
+* **Grid**: Renders a grid of images.
+* **Modal**: Displays a larger view of the selected image with additional details.
+* **CloseIcon**: A UI element for closing modal windows.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions to GalleryGrid are welcome. Please refer to the contribution guidelines before making a pull request.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+GalleryGrid is licensed under the [MIT License]().
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Acknowledgements
+
+* Next.js Team for the excellent framework.
+* Contributors and maintainers of all used open-source libraries.
